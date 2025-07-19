@@ -33,6 +33,8 @@ services:
     - cluster.initial_master_nodes=es01,es02,es03    
     - discovery.seed_hosts=es01,es02
     - "ES_JAVA_OPTS=-Xms512m -Xmx512m"   
+    ports:
+    - 9203:9200  
   kibana:
     image: docker.elastic.co/kibana/kibana:9.0.2
     ports:
