@@ -1,10 +1,10 @@
 PUT /my-index
 
 
-## delete index
+### delete index
 DELETE /my-index
 
-## create an index
+### create an index
 PUT /my-index
 
 ### bulk insert
